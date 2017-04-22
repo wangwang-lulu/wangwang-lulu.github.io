@@ -1054,8 +1054,12 @@ pre .javascript .function {
 }
 .menu {
   margin-top: 20px;
-  padding-left: 0;
+  padding-left: 0px;
   text-align: center;
+  background-color: #d9d6c3;
+  border: 10px solid rgba(255,255,255,0.5);
+  background: #fff;
+  background-clip: padding-box;
 }
 .menu .menu-item {
   display: inline-block;
@@ -1691,7 +1695,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c99346;
+  background: #29ff50;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2486,7 +2490,7 @@ embed {
 .custom-logo .site-title {
   margin: 10px auto 0;
   font-size: 24px;
-  color: #222;
+  color: #f5f5f5;
 }
 .custom-logo .site-title a {
   border: none;
