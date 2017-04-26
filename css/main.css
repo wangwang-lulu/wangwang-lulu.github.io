@@ -1292,7 +1292,8 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: border;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 2px dashed #fff;
+  background-color: #fff;
 }
 .posts-collapse .post-header::before {
   content: " ";
@@ -1729,7 +1730,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bfffff;
+  background: #cc650e;
 }
 .links-of-blogroll {
   font-size: 13px;
