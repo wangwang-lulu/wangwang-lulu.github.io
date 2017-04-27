@@ -1730,7 +1730,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6a39;
+  background: #78455b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2610,5 +2610,5 @@ body {
 }
 #header {
   background: url("../images/background-header.jpg");
-  background-size: cover;
+  background-repeat: repeat;
 }
