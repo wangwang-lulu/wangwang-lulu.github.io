@@ -1730,7 +1730,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbecb;
+  background: #c7e875;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2537,7 +2537,7 @@ embed {
 }
 .custom-logo .site-title {
   margin: 10px auto 0;
-  font-size: 24px;
+  font-size: 21px;
   color: #f5f5f5;
 }
 .custom-logo .site-title a {
