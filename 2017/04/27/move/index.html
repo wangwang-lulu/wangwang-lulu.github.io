@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="Lu's Reality Marble">
 <meta property="og:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
 <meta property="og:image" content="http://yoursite.com/images/b11.jpg">
-<meta property="og:updated_time" content="2017-04-28T05:29:36.027Z">
+<meta property="og:updated_time" content="2017-04-28T05:44:14.093Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网站搬家">
 <meta name="twitter:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
@@ -451,11 +451,13 @@
 path = themes/next
 url = https://github.com/iissnan/hexo-theme-next
 </code></pre><p>然后就可以在github desktop里面commit了再上传到github。</p>
-<h2 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h2><p>我这里没有添加<code>hexo-deployer-git --save</code>，因为觉得这种更新方式太麻烦了。我是利用Appveyor的持续集成方法，具体的可以参考<a href="https://formulahendry.github.io/2016/12/04/hexo-ci/" target="_blank" rel="external">Hexo的版本控制与持续集成</a>，作者formulahendry。其实，如果你只是想添加几篇文章的话，在新电脑上直接用github desktop更新你的source文件夹就足够了。但是如果你还想继续调试hexo，或者使用一些便捷的方式添加文章的话，请继续往下看。</p>
+<h2 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h2><p>我这里没有添加<code>hexo-deployer-git --save</code>，因为觉得这种更新方式太麻烦了。我是利用Appveyor的持续集成方法，具体的可以参考<a href="https://formulahendry.github.io/2016/12/04/hexo-ci/" target="_blank" rel="external">Hexo的版本控制与持续集成</a>，作者formulahendry。其实，如果你用了Appveyor，而且在新电脑上只是想添加几篇文章的话，在新电脑上直接用github desktop更新你的source文件夹就足够了。但是如果你还想继续调试hexo，或者使用一些便捷的方式添加文章的话，请继续往下看。</p>
 <h2 id="另一台电脑上的操作"><a href="#另一台电脑上的操作" class="headerlink" title="另一台电脑上的操作"></a>另一台电脑上的操作</h2><p>下载Node.js，并且安装。在新电脑上，在随便一个目录里安装hexo。，用git bash输入</p>
 <pre><code>npm install hexo-cli -g
 npm install -g hexo
-npm hexo init
+npm update hexo -g
+hexo init
+npm install
 </code></pre><p>然后，打开你在新电脑上安装的github desktop，clone你的hexo仓库到本地另外一个文件夹。这个仓库里的文件是没法生成网页的，你缺的就是<code>node_modules</code>这个文件夹，所以拷贝刚才那个文件夹里生成的<code>node_modules</code>文件夹到你hexo仓库的根目录，然后你再编译<code>hexo g</code>试试，成功的话就可以用了。另外，你可能要额外安装下面这些东西：</p>
 <pre><code>npm install hexo-tag-aplayer --save
 npm install hexo-tag-dplayer --save
