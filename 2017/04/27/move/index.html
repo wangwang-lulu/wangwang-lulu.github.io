@@ -107,10 +107,10 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="网站搬家">
 <meta property="og:url" content="http://yoursite.com/2017/04/27/move/index.html">
-<meta property="og:site_name" content="Lu's Reality Marble">
+<meta property="og:site_name" content="Lu&#39;s Reality Marble">
 <meta property="og:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
 <meta property="og:image" content="http://yoursite.com/images/b1.jpg">
-<meta property="og:updated_time" content="2017-04-28T16:15:41.327Z">
+<meta property="og:updated_time" content="2017-04-28T18:38:39.269Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网站搬家">
 <meta name="twitter:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
@@ -458,10 +458,12 @@ npm install -g hexo
 npm update hexo -g
 hexo init
 npm install
-</code></pre><p>然后，打开你在新电脑上安装的github desktop，clone你的hexo仓库到本地另外一个文件夹。这个仓库里的文件是没法生成网页的，你缺的就是<code>node_modules</code>这个文件夹，所以拷贝刚才你安装hexo那个文件夹里生成的<code>node_modules</code>文件夹到你hexo仓库的根目录，然后你再到hexo仓库根目录里用git bash编译<code>hexo g</code>试试，成功的话就可以用了。另外，你可能要额外安装下面这些东西：</p>
+</code></pre><p>然后，打开你在新电脑上安装的github desktop，clone你的hexo仓库到本地另外一个文件夹。这个仓库里的文件是没法生成网页的，你缺的就是<code>node_modules</code>这个文件夹，所以拷贝刚才你安装hexo那个文件夹里生成的<code>node_modules</code>文件夹到你hexo仓库的根目录，然后你再到hexo仓库根目录里用git bash安装你自己添加的模块，输入<code>npm install</code>，最后测试输入<code>hexo g</code>，成功的话就可以用了。</p>
+<p>另外，如果最后那个<code>npm install</code>不管用，你可能要额外安装你自己曾经添加过的模块了，比如下面这些东西：</p>
 <pre><code>npm install hexo-tag-aplayer --save
 npm install hexo-tag-dplayer --save
 npm install hexo-util --save
+npm install hexo-tag-cloud --save
 </code></pre><p>还有什么，我想起来再添加。</p>
 <div class="note danger"><p><strong>本文作者</strong>： Lu Wang<br><strong>本文链接</strong>： <a href="http://wangwanglulu.com/2017/04/27/move/" target="_blank" rel="external">http://wangwanglulu.com/2017/04/27/move/</a><br><strong>版权声明</strong>： 本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="external">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！</p>
 </div>
@@ -506,15 +508,15 @@ npm install hexo-util --save
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/04/25/bio/" rel="next" title="关于">
+                <i class="fa fa-chevron-left"></i> 关于
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/25/bio/" rel="prev" title="关于">
-                关于 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -695,6 +697,7 @@ npm install hexo-util --save
 
     </div>
   </aside>
+
 
 
         
