@@ -957,6 +957,10 @@ pre .javascript .function {
 .tag-cloud a {
   display: inline-block;
   margin: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 0px;
 }
 .back-to-top {
   box-sizing: border-box;
@@ -1730,7 +1734,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7e01ff;
+  background: #3d9e3c;
 }
 .links-of-blogroll {
   font-size: 13px;
