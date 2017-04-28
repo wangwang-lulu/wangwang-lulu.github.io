@@ -446,22 +446,14 @@
 
       
         
-          
-            <script src="/assets/js/APlayer.min.js"> </script><p><img src="/images/b10.jpg" class="full-image"><br>这个next主题被我改得连它亲妈都不认识了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。</p>
-<h3 id="上传本地文件"><a href="#上传本地文件" class="headerlink" title="上传本地文件"></a>上传本地文件</h3><p>直接在网页里，新建了一个仓库，取名为<code>hexo</code>。用github desktop将<code>hexo</code>仓库clone到本地。这里我先备份了所有的生成网页的源文件，然后拷贝所有文件到clone文件夹。</p>
-<p>在根目录中有一个文件名为<code>.gitignore</code>，里面记录了所有不会被上传的文件夹。其中有些文件是没有必要被上传，纯粹拖慢速度，比如说<code>node_modules</code>，<code>public</code>(这个网站我没有用<code>hexo d</code>，所以没有deploy的文件夹)。这个时候要注意了，如果不在根目录添加一个文件<code>.gitmodules</code>，主题里面的next文件夹是不会被上传的。这个时候手动添加该文件，内容如下：</p>
-<pre><code>[submodule &quot;themes/next&quot;]
-path = themes/next
-url = https://github.com/iissnan/hexo-theme-next
-</code></pre><p>然后就可以在github desktop里面commit了再上传到github。</p>
-<h3 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h3><p>我这里没有添加<code>hexo-deployer-git --save</code>，因为觉得这种更新方式太麻烦了。我是利用Appveyor的持续集成方法，具体的可以参考的的<a href="https://formulahendry.github.io/2016/12/04/hexo-ci/" target="_blank" rel="external">Hexo的版本控制与持续集成</a>，作者formulahendry。</p>
-<h3 id="另一台电脑上的操作"><a href="#另一台电脑上的操作" class="headerlink" title="另一台电脑上的操作"></a>另一台电脑上的操作</h3><p>首先下载Node.js，并且安装。在新电脑上，在随便一个目录里，用git bash输入<code>npm install hexo-cli -g</code>安装hexo。打开你在新电脑上安装的github desktop，clone你的hexo仓库到本地另外一个文件夹。这个仓库里的文件是没法编译的，你缺的就是<code>node_modules</code>这个文件夹，所以拷贝刚才那个文件夹里生成的<code>node_modules</code>文件夹到你hexo仓库的根目录。然后在git bash里切换到你hexo仓库的文件夹，使用<code>npm install</code>进行模块安装，不要用<code>hexo init</code>。你可能要安装下面这些东西：</p>
-<pre><code>npm install hexo-tag-aplayer --save
-npm install hexo-tag-dplayer --save
-npm install hexo-util --save
-</code></pre><p>还有什么，我想起来再添加。</p>
-
-          
+          <p><img src="/images/b10.jpg" class="full-image" /><br>这个next主题被我改得连它亲妈都不认识了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/04/27/move/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -611,7 +603,7 @@ npm install hexo-util --save
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="/images/b7.jpg" rel="gallery_cj21d1t870002y4mjfptdoqr4"
+                 href="/images/b7.jpg" rel="gallery_cj21d478b000210mjkcnjmxzf"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/images/b7.jpg" itemprop="contentUrl"/>
               </a>
@@ -619,7 +611,7 @@ npm install hexo-util --save
           
             
               <a class="post-gallery-img fancybox"
-                 href="/images/b5.jpg" rel="gallery_cj21d1t870002y4mjfptdoqr4"
+                 href="/images/b5.jpg" rel="gallery_cj21d478b000210mjkcnjmxzf"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/images/b5.jpg" itemprop="contentUrl"/>
               </a>
@@ -627,7 +619,7 @@ npm install hexo-util --save
           
             
               <a class="post-gallery-img fancybox"
-                 href="/images/b9.jpg" rel="gallery_cj21d1t870002y4mjfptdoqr4"
+                 href="/images/b9.jpg" rel="gallery_cj21d478b000210mjkcnjmxzf"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/images/b9.jpg" itemprop="contentUrl"/>
               </a>
