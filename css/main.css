@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'SourceHanSerifCN-Heavy', 'Roboto-Regular', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'SourceHanSerifCN-Bold', 'Roboto-Regular', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #609dff;
+  background: #ff40f1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2622,6 +2622,10 @@ body {
 @font-face {
   font-family: JosefinSans-Regular;
   src: url("/fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: SourceHanSerifCN-Bold;
+  src: url("/fonts/SourceHanSerifCN-Bold.otf");
 }
 .tag-cloud-title {
   margin-bottom: 20px;
