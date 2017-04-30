@@ -946,7 +946,12 @@ pre .javascript .function {
   }
 }
 .comments {
-  margin: 60px 20px 0;
+  margin: 60px 0px 0;
+  background-color: #fff;
+  padding-top: 20px;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  box-shadow: 0 0 3px rgba(0,0,0,0.15);
 }
 .tag-cloud {
   text-align: center;
@@ -955,8 +960,8 @@ pre .javascript .function {
 }
 .tag-cloud a {
   display: inline-block;
-  margin: 15px 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  margin: 5px 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
   background-color: #fff;
   padding: 10px 20px;
   border-bottom: 0px;
@@ -1733,7 +1738,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3903eb;
+  background: #419ca6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2315,8 +2320,9 @@ pre .javascript .function {
   margin-bottom: 60px;
   background-color: #fff;
   padding: 25px 20px 25px 20px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  box-shadow: 0 0 3px rgba(0,0,0,0.15);
 }
 .category-all-page .category-list {
   margin: 0;
@@ -2529,8 +2535,9 @@ embed {
   margin-bottom: 60px;
   background-color: #fff;
   padding: 50px 20px 25px 20px;
-  -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  box-shadow: 0 0 3px rgba(0,0,0,0.15);
 }
 .custom-logo .site-meta-headline {
   text-align: center;
@@ -2610,6 +2617,9 @@ body {
 @font-face {
   font-family: JosefinSans-Regular;
   src: url("/fonts/JosefinSans-Regular.ttf");
+}
+.tag-cloud-title {
+  margin-bottom: 20px;
 }
 .img-3.img-3.img-3 {
   width: 33.3%;
