@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b0afb5;
+  background: #ff09a4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2622,10 +2622,6 @@ body {
 @font-face {
   font-family: JosefinSans-Regular;
   src: url("/fonts/JosefinSans-Regular.ttf");
-}
-@font-face {
-  font-family: SourceHanSerifCN-Bold;
-  src: url("/fonts/SourceHanSerifCN-Bold.otf");
 }
 .tag-cloud-title {
   margin-bottom: 20px;
