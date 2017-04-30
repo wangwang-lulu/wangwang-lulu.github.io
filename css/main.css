@@ -946,12 +946,17 @@ pre .javascript .function {
   }
 }
 .comments {
-  margin: 60px 0px 0;
+  margin: -20px 0px 0;
   background-color: #fff;
-  padding-top: 20px;
+  padding-top: 40px;
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
+}
+@media (max-width: 767px) {
+  .comments {
+    margin: -20px 20px 0;
+  }
 }
 .tag-cloud {
   text-align: center;
@@ -1738,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #419ca6;
+  background: #609dff;
 }
 .links-of-blogroll {
   font-size: 13px;
