@@ -634,13 +634,13 @@ pre .javascript .function {
   border: none;
   max-width: 100%;
   width: auto;
-  margin: 20px auto;
+  margin: 20px auto 10px;
 }
 @media (min-width: 992px) {
   .full-image.full-image.full-image {
     max-width: none;
     width: 110%;
-    margin: 25px -5%;
+    margin: 25px -5% 10px;
   }
 }
 .blockquote-center,
@@ -1398,7 +1398,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 40px 0;
   color: #999;
   font-family: 'Roboto-Regular', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
@@ -1733,7 +1733,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e59499;
+  background: #3903eb;
 }
 .links-of-blogroll {
   font-size: 13px;
