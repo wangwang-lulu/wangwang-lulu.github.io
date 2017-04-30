@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff09a4;
+  background: #7dffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2626,8 +2626,22 @@ body {
 .tag-cloud-title {
   margin-bottom: 20px;
 }
+.img-2.img-2.img-2 {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: -6px;
+  background: #fff;
+  border: none;
+}
 .img-3.img-3.img-3 {
   width: 33.3%;
+  display: inline-block;
+  margin-bottom: -6px;
+  background: #fff;
+  border: none;
+}
+.img-4.img-4.img-4 {
+  width: 25%;
   display: inline-block;
   margin-bottom: -6px;
   background: #fff;
