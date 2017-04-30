@@ -1136,7 +1136,7 @@ pre .javascript .function {
   }
 }
 .post-body .fancybox img {
-  display: block !important;
+  display: block;
   margin: 0 auto;
   cursor: pointer;
   cursor: zoom-in;
@@ -1733,7 +1733,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ada18e;
+  background: #9aff98;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2610,6 +2610,13 @@ body {
 @font-face {
   font-family: JosefinSans-Regular;
   src: url("/fonts/JosefinSans-Regular.ttf");
+}
+.img-3.img-3.img-3 {
+  width: 33.3%;
+  display: inline-block;
+  margin-bottom: -6px;
+  background: #fff;
+  border: none;
 }
 #header {
   background: url("../images/background-header.jpg");

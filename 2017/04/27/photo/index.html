@@ -86,7 +86,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="技术备忘," />
+  <meta name="keywords" content="软件使用,Hexo优化," />
 
 
 
@@ -103,14 +103,18 @@
 
 
 <meta name="description" content="Hexo所提供的图片展示方法始终是有限的，但是要做一个简单而优雅的网站，太多的图片展示方式，反而会显得凌乱不堪。这里记录一下图片展示的各种方法，可以为日后的图文博客做模板。">
-<meta name="keywords" content="技术备忘">
+<meta name="keywords" content="软件使用,Hexo优化">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图片展示">
 <meta property="og:url" content="http://yoursite.com/2017/04/27/photo/index.html">
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
 <meta property="og:description" content="Hexo所提供的图片展示方法始终是有限的，但是要做一个简单而优雅的网站，太多的图片展示方式，反而会显得凌乱不堪。这里记录一下图片展示的各种方法，可以为日后的图文博客做模板。">
 <meta property="og:image" content="http://yoursite.com/images/wb4.jpg">
-<meta property="og:updated_time" content="2017-04-29T06:41:57.617Z">
+<meta property="og:image" content="http://yoursite.com/images/wb4.jpg">
+<meta property="og:image" content="http://yoursite.com/images/wb4.jpg">
+<meta property="og:image" content="http://yoursite.com/images/wb4.jpg">
+<meta property="og:image" content="http://yoursite.com/images/wb4.jpg">
+<meta property="og:updated_time" content="2017-04-30T00:46:37.972Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="图片展示">
 <meta name="twitter:description" content="Hexo所提供的图片展示方法始终是有限的，但是要做一个简单而优雅的网站，太多的图片展示方式，反而会显得凌乱不堪。这里记录一下图片展示的各种方法，可以为日后的图文博客做模板。">
@@ -457,9 +461,9 @@
 </code></pre><p>这里<code>This is an example image</code>是图片的说明。</p>
 <h3 id="多张图片"><a href="#多张图片" class="headerlink" title="多张图片"></a>多张图片</h3><p>如果想在首页添加多个图片，就必须在标题栏里添加</p>
 <pre><code>photos:
-    - /images/b7.jpg
-    - /images/b6.jpg
-    - /images/b5.jpg
+- /images/b7.jpg
+- /images/b6.jpg
+- /images/b5.jpg
 </code></pre><p>这里有三张图，所以这三张图并排在一行。如果是两张图就是，两张图并排在一行，并且把容器填满。据我自己测试，如果是四张图的话，第四张图就会被挤到第二排，然而第二排并没有被占满，后面留下丑陋的空白。如果是六张图的话，第一排三张图，第二排三张图，全部被占满，所以请思考一下用这种方式，放几张图比较好看。</p>
 <p>这里要注意了，以上的几种图片放置方式，都是支持fancybox的。下面要说的就是next主题内置的一个图片放置方式，不支持fancybox，但是首页显示会比较好看， </p>
 <pre><code>{% gp 4-2 %}
@@ -470,7 +474,7 @@
 {% endgp %}
 </code></pre><p>采用这种方式后，图片就会按照一定的方式把容器占满，当然对应不同的图片数量，可以选择不同的方式，上面的例子，可以参考本网站的博文Gallery Test。其他的图片排列方式，可以查看文件：</p>
 <pre><code>..\themes\next\scripts\tags\group-pictures.js
-</code></pre><p>这种放置的方式，缺点就是不能使用fancybox。而且点进文章里面后，图片的排列方式就变回原来的一行一图了,就像Gallery Test那样。下面介绍在文中展示图片的方法。<br><div class="note primary"><h2 id="文中展示"><a href="#文中展示" class="headerlink" title="文中展示"></a>文中展示</h2></div><br>首先解决<code>group-picture.js</code>带来的问题，参考<a href="https://ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/#%E5%85%AB%E3%80%81%E5%9B%BE%E7%89%87%E6%A8%A1%E5%BC%8F" target="_blank" rel="external">使用Hexo基于GitHub Pages搭建个人博客</a>的办法。修改</p>
+</code></pre><p>这种放置的方式，缺点就是不能使用fancybox。而且点进文章里面后，图片的排列方式就变回原来的一行一图了，就像Gallery Test那样。下面介绍在文中展示图片的方法。<br><div class="note primary"><h2 id="文中展示"><a href="#文中展示" class="headerlink" title="文中展示"></a>文中展示</h2></div><br>首先解决<code>group-picture.js</code>带来的问题，参考<a href="https://ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/#%E5%85%AB%E3%80%81%E5%9B%BE%E7%89%87%E6%A8%A1%E5%BC%8F" target="_blank" rel="external">使用Hexo基于GitHub Pages搭建个人博客</a>的办法。修改</p>
 <pre><code>themes\next\source\css\_common\components\tags\group-pictures.styl
 </code></pre><p>中的样式为</p>
 <pre><code>.page-post-detail .post-body .group-picture-column {
@@ -480,10 +484,33 @@
   img { margin: 0 auto; }
 }
 </code></pre><p>这样就没问题了，文内的布局和首页的布局一模一样。当然如果你不想这样，也可以不用修改，把这篇博客作为一个纯的gallery展示也是很优雅的。但是即便是这样，记住还是不能用fancybox。而且这种布局方式，是不能隐藏在文内的，就是说不能靠添加<code>&lt;!-- more --&gt;</code>来在文中展示多张图，而不显示到首页。</p>
-<p>如果你一定要在文章并排添加多张图，只好用最后的办法，手动修改图片的引用格式，就是像这样</p>
-<pre><code>&lt;img src=&quot;/uploads/image-1.jpg&quot; style=&quot;display: inline-block&quot; /&gt;
-&lt;img src=&quot;/uploads/image-2.jpg&quot; style=&quot;display: inline-block&quot; /&gt;
-</code></pre><p>这样一行可以放置多个图片，也可以用fancybox了，也可以在<code>style</code>里面添加别的方式，随你喜欢了。当然如果你如只想一行放一张图，那就参考第一部分的首页一张图的放置方式吧。</p>
+<p>如果你一定要在文章并排添加多张图，只好用最后的办法，手动修改图片的引用格式，我直接添加了一个图片的class。如下这么做，我先修改了</p>
+<pre><code>\themes\next\source\css\_common\components\post.styl
+</code></pre><p>中的样式为</p>
+<pre><code>.post-body .fancybox img {
+display: block; 
+// !important;
+margin: 0 auto;
+cursor: pointer;
+cursor: zoom-in;
+cursor: -webkit-zoom-in;
+}
+</code></pre><p>就是把<code>!important</code>去掉了。然后在</p>
+<pre><code>\themes\next\source\css\_custom.styl
+</code></pre><p>里面添加</p>
+<pre><code>.img-3.img-3.img-3 {
+width: 33.3%; //一行三张，自己按百分比定义一行几张
+display: inline-block; //单行放置
+margin-bottom: -6px; //由于图片继承上一个class的底部横线，先覆盖
+background: white; //定义背景色，遮盖横线
+border: none; //去掉相框，可选
+}
+</code></pre><p>然后我们的引用图片格式是</p>
+<pre><code>&lt;img src=&quot;/images/wb4.jpg&quot; class=&quot;img-3&quot; /&gt;
+</code></pre><p>效果如下：<br>一张图<br><img src="/images/wb4.jpg" class="img-3"></p>
+<p>三张图<br><img src="/images/wb4.jpg" class="img-3"><img src="/images/wb4.jpg" class="img-3"><img src="/images/wb4.jpg" class="img-3"></p>
+<p>这样一行可以放置多个图片，也可以用fancybox了，比如可以在游记后面堆一些图，不用每张都是高清大图。另外要提一下的是，这里没有定义<code>max-height</code>，所以如果图片比例不一样，一行的图片会有高低不平，解决办法是：别搞一些比例奇怪的图放在一起。即使你在电脑上浏览正常，到了手机还是会出问题。</p>
+<p>关于多张图片放置问题，更深入的修改就不知道，毕竟我的初衷不是做一个技术博客。当然如果你如只想一行放一张图，那就参考第一部分的首页展示一张图的放置方式吧。</p>
 <div class="note danger"><p><strong>本文作者</strong>： Lu Wang<br><strong>本文链接</strong>： <a href="http://wangwanglulu.com/2017/04/27/photo/" target="_blank" rel="external">http://wangwanglulu.com/2017/04/27/photo/</a><br><strong>版权声明</strong>： 本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="external">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！</p>
 </div>
       
@@ -514,7 +541,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/技术备忘/" rel="tag"># 技术备忘</a>
+            <a href="/tags/软件使用/" rel="tag"># 软件使用</a>
+          
+            <a href="/tags/Hexo优化/" rel="tag"># Hexo优化</a>
           
         </div>
       
@@ -631,7 +660,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
