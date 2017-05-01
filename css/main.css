@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8b4a93;
+  background: #5cff83;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2867,6 +2867,14 @@ body {
 }
 .tag-cloud-title {
   margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 .img-2.img-2.img-2 {
   width: 50%;
