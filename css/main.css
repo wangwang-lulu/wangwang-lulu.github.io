@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d72b0b;
+  background: #8b4a93;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2731,7 +2731,7 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (min-width: 1600px) {
