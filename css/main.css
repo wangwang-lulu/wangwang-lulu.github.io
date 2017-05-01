@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5cff83;
+  background: #91c4ad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2875,6 +2875,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+  -webkit-font-smoothing: antialiased;
 }
 .img-2.img-2.img-2 {
   width: 50%;
