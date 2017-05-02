@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #91c4ad;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2722,7 +2722,7 @@ hr {
 }
 .posts-expand .post-meta {
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .posts-expand .post-title {
   position: relative;
@@ -2822,7 +2822,7 @@ hr {
   display: none;
 }
 .page-post-detail .post-meta {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .pagination {
   margin: 120px 0 0;
