@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1c13;
+  background: #62beff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2770,13 +2770,13 @@ hr {
   line-height: 2;
   border: none;
   padding: 0px 10px;
-  background-color: #ffc0cb;
+  background-color: #bdc3c7;
   transition-property: background;
 }
 .post-button .btn:hover {
   border-color: #222;
   color: #fff;
-  background: #9b59b6;
+  background: #34495e;
 }
 .post-button a {
   margin: 0 8px 8px 0 !important;
