@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #62beff;
+  background: #290baf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2921,6 +2921,17 @@ h6 {
   display: inline-block;
   margin-bottom: -6px;
   margin-top: -6px;
+  background: #fff;
+  border: none;
+}
+.img-1f.img-1f.img-1f {
+  width: 104.7%;
+  max-width: 104.7%;
+  display: inline-block;
+  margin-bottom: -6px;
+  margin-top: -6px;
+  margin-left: -2.3%;
+  padding: 0px;
   background: #fff;
   border: none;
 }
