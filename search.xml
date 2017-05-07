@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[游赏：前言]]></title>
+    <url>%2F2017%2F05%2F07%2Fgamepre%2F</url>
+    <content type="text"><![CDATA[我决定写一个专题，探讨一下游戏中的机制。这里主要选取了稍微nerd一点的游戏——卡牌类游戏。不同于电脑或者主机游戏，卡牌游戏没有生动的画面和绚丽的音效，只能依靠游戏机制本身去吸引玩家，拥有纯粹的游戏感，也较为容易解读游戏设计者的思想。 游戏选择 经过一番蜜汁思考，我决定从几个公认的奖项里挑选我要评论的游戏，自然都是被好评的游戏。我一点也不想去点评烂游戏，博人眼球。以下是几个著名的奖项： Golden Geek AwardsSpiel des Jahres (SDJ)Deutscher Spiele Preis (DSP)初衷 Why start？规则的趣味评论啥？讨论啥？局限性To be continued…]]></content>
+      <categories>
+        <category>游赏系列</category>
+      </categories>
+      <tags>
+        <tag>小众游戏</tag>
+        <tag>游戏机制</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[网站搬家]]></title>
     <url>%2F2017%2F04%2F27%2Fmove%2F</url>
     <content type="text"><![CDATA[这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。 上传本地文件直接在网页里，新建了一个仓库，取名为hexo。用github desktop将hexo仓库clone到本地。这里我先备份了所有的生成网页的源文件，然后拷贝所有文件到clone文件夹。 在根目录中有一个文件名为.gitignore，里面记录了所有不会被上传的文件夹。其中有些文件是没有必要被上传，纯粹拖慢速度，比如说node_modules，public(这个网站我没有用hexo d，所以没有deploy的文件夹)。这个时候要注意了，如果不在根目录添加一个文件.gitmodules，主题里面的next文件夹是不会被上传的。这个时候手动添加该文件，内容如下： [submodule &quot;themes/next&quot;] path = themes/next url = https://github.com/iissnan/hexo-theme-next 然后就可以在github desktop里面commit了再上传到github。 持续集成我这里没有添加hexo-deployer-git --save，因为觉得这种更新方式太麻烦了。我是利用Appveyor的持续集成方法，具体的可以参考Hexo的版本控制与持续集成。其实，如果你用了Appveyor，而且在新电脑上只是想添加几篇文章的话，在新电脑上直接用github desktop更新你的source文件夹就足够了。同理，可以用手机直接登录github的网页添加修改博客，随时随地写博客。但是如果你还想继续调试hexo，或者添加一些其他的功能的话，请继续往下看。 另一台电脑上的操作下载Node.js，并且安装。在新电脑上，在任意一个目录里创建名为hexo的文件夹，在里面安装hexo，在该目录下用git bash输入 npm install hexo-cli -g npm install -g hexo npm update hexo -g 然后，打开你在新电脑上安装的github desktop，clone你的hexo仓库到刚才创建的hexo文件夹。比如说你在d:/hexo这个文件夹，那你就clone到d:/。这个仓库里的文件是没法生成网页的，你缺的就是node_modules这个文件夹，所以输入npm install，最后测试输入hexo g，成功的话就可以用了。 另外，如果最后那个npm install用了之后还是无法成功，你可能要额外安装你自己曾经添加过的模块了，比如下面这些东西： npm install hexo-tag-aplayer --save npm install hexo-tag-dplayer --save npm install hexo-util --save npm install hexo-tag-cloud --save 还有什么，我想起来再添加。 本文作者： Lu Wang本文链接： http://wangwanglulu.com/2017/04/27/move/版权声明： 本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议。转载请注明出处！]]></content>
