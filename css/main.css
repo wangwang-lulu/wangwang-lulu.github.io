@@ -970,6 +970,7 @@ pre .javascript .function {
   background-color: #fff;
   padding: 10px 20px;
   border-bottom: 0px;
+  border-radius: 10px;
 }
 .back-to-top {
   box-sizing: border-box;
@@ -1307,6 +1308,8 @@ pre .javascript .function {
   transition-property: border;
   border-bottom: 2px dashed #fff;
   background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 .posts-collapse .post-header::before {
   content: " ";
@@ -1743,7 +1746,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87c4ff;
+  background: #ffff08;
 }
 .links-of-blogroll {
   font-size: 13px;
