@@ -1743,7 +1743,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1be4b;
+  background: #87c4ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2866,7 +2866,8 @@ hr {
   }
 }
 body {
-  background: #d9d6c3;
+  background: url("../images/school.png");
+  background-repeat: repeat;
 }
 @font-face {
   font-family: SourceHanSerifCN-Heavy;
@@ -2934,6 +2935,6 @@ h6 {
   border: none;
 }
 #header {
-  background: url("../images/background-header.jpg");
+  background: url("../images/header.png");
   background-repeat: repeat;
 }
