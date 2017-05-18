@@ -965,10 +965,10 @@ pre .javascript .function {
 }
 .tag-cloud a {
   display: inline-block;
-  margin: 5px 5px;
+  margin: 3px 3px;
   box-shadow: 0 0 15px rgba(0,0,0,0.15);
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border-bottom: 0px;
   border-radius: 10px;
 }
@@ -1747,7 +1747,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #616fc8;
+  background: #ffaa4d;
 }
 .links-of-blogroll {
   font-size: 13px;
