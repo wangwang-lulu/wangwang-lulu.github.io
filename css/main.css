@@ -1747,7 +1747,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #63309a;
+  background: #12f7bd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2967,6 +2967,7 @@ h6 {
   margin-bottom: -6px;
   background: #fff;
   border: none;
+  padding-top: 6px;
 }
 .img-m.img-m.img-m {
   width: 60%;
