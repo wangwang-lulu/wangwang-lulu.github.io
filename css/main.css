@@ -952,6 +952,7 @@ pre .javascript .function {
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  border-radius: 5px;
 }
 @media (max-width: 767px) {
   .comments {
@@ -1747,7 +1748,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f60;
+  background: #d566d0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2332,6 +2333,7 @@ pre .javascript .function {
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  border-radius: 5px;
 }
 .category-all-page .category-list {
   margin: 0;
