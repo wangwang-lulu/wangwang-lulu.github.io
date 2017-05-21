@@ -4,9 +4,6 @@
     <title></title>
     <url>%2F2017%2F05%2F21%2FGallery-1%2F</url>
     <content type="text"><![CDATA[]]></content>
-      <categories>
-        <category>Special Pages</category>
-      </categories>
   </entry>
   <entry>
     <title><![CDATA[行忆画廊二：奥地利]]></title>
@@ -16,8 +13,8 @@
         <category>旅行回忆</category>
       </categories>
       <tags>
-        <tag>旅行画廊</tag>
         <tag>欧美游记</tag>
+        <tag>旅行画廊</tag>
       </tags>
   </entry>
   <entry>
@@ -28,8 +25,8 @@
         <category>旅行回忆</category>
       </categories>
       <tags>
-        <tag>亚非拉游记</tag>
         <tag>旅行画廊</tag>
+        <tag>亚非拉游记</tag>
       </tags>
   </entry>
   <entry>
@@ -119,8 +116,5 @@
     <title><![CDATA[Gallery Test]]></title>
     <url>%2F2017%2F04%2F20%2FGallery-Test%2F</url>
     <content type="text"><![CDATA[]]></content>
-      <categories>
-        <category>Special Pages</category>
-      </categories>
   </entry>
 </search>
