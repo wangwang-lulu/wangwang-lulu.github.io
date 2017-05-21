@@ -1748,7 +1748,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d566d0;
+  background: #ff9a6c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2670,7 +2670,7 @@ hr {
   padding: 0 10px;
   background: none;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   transition-property: background;
   color: #f5f5f5;
   background-color: rgba(255,253,192,0.3);
