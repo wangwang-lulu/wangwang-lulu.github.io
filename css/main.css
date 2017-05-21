@@ -1747,7 +1747,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0df518;
+  background: #f60;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2722,6 +2722,7 @@ hr {
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  border-radius: 5px;
 }
 .posts-expand .post:first-child {
   margin-top: -40px;
