@@ -717,6 +717,7 @@ pre .javascript .function {
 .page-archive .group-picture-container {
   overflow: hidden;
   padding-bottom: 6px;
+  padding-right: 6px;
 }
 .page-archive .group-picture-row {
   float: left;
@@ -1749,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87f1ff;
+  background: #55938f;
 }
 .links-of-blogroll {
   font-size: 13px;
