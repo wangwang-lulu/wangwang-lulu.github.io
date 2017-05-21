@@ -716,6 +716,7 @@ pre .javascript .function {
 }
 .page-archive .group-picture-container {
   overflow: hidden;
+  padding-bottom: 6px;
 }
 .page-archive .group-picture-row {
   float: left;
@@ -1307,7 +1308,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: border;
-  border-bottom: 2px dashed #fff;
+  \border-bottom: 2px dashed #fff;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.15);
@@ -1748,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #afb4ff;
+  background: #87f1ff;
 }
 .links-of-blogroll {
   font-size: 13px;
