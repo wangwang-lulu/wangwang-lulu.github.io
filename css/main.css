@@ -1750,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #537a2b;
+  background: #2b49ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3014,15 +3014,14 @@ h6 {
   list-style: none;
   padding: 0;
   width: 80px;
-  height: 108px;
+  height: 50px;
   background: rgba(255,253,192,0.3);
   position: relative;
   z-index: 1039;
   float: right;
-  margin-top: -42px;
-  margin-left: 6px;
-  margin-bottom: -60px;
-  border-radius: 0px !important;
+  margin-top: -4px;
+  margin-left: 3px;
+  margin-bottom: -5px;
 }
 @media (max-width: 767px) {
   .navigation {
@@ -3031,7 +3030,7 @@ h6 {
 }
 .navigation,
 .navigation a.main {
-  border-radius: 0px;
+  border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
@@ -3043,8 +3042,8 @@ h6 {
 }
 .navigation a.main {
   display: block;
-  height: 108px;
-  font: 14px/130px Microsoft YaHei;
+  height: 50px;
+  font: 14px/50px Microsoft YaHei;
   text-align: center;
   text-decoration: none;
   color: #fff;
