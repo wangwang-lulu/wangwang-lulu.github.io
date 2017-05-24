@@ -1750,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e4fa3b;
+  background: #c6c132;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3089,10 +3089,10 @@ h6 {
   color: #000;
 }
 .navigation li:nth-child(even) {
-  background: #e3e3f0;
+  background: #e1e7dc;
 }
 .navigation li:nth-child(odd) {
-  background: #edeef7;
+  background: #ccd5c6;
 }
 .navigation li.n1 {
   -webkit-transition: 0.1s linear 0.5s;
