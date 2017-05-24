@@ -1750,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2b49ff;
+  background: #c66bcf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3014,14 +3014,14 @@ h6 {
   list-style: none;
   padding: 0;
   width: 80px;
-  height: 50px;
+  height: 45px;
   background: rgba(255,253,192,0.3);
   position: relative;
   z-index: 1039;
   float: right;
-  margin-top: -4px;
+  margin-top: 0px;
   margin-left: 3px;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
 }
 @media (max-width: 767px) {
   .navigation {
@@ -3042,8 +3042,8 @@ h6 {
 }
 .navigation a.main {
   display: block;
-  height: 50px;
-  font: 14px/50px Microsoft YaHei;
+  height: 45px;
+  font: 14px/45px Microsoft YaHei;
   text-align: center;
   text-decoration: none;
   color: #fff;
