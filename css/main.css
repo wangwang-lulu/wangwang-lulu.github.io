@@ -1750,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #abff5e;
+  background: #ff26ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3013,12 +3013,20 @@ h6 {
 .navigation {
   list-style: none;
   padding: 0;
-  width: 200px;
-  height: 40px;
-  margin: 20px auto;
-  background: #34495e;
+  width: 80px;
+  height: 50px;
+  background: rgba(255,253,192,0.3);
   position: relative;
-  z-index: 100;
+  z-index: 1039;
+  float: right;
+  margin-top: -4px;
+  margin-left: 3px;
+  margin-bottom: -5px;
+}
+@media (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
 }
 .navigation,
 .navigation a.main {
@@ -3034,8 +3042,8 @@ h6 {
 }
 .navigation a.main {
   display: block;
-  height: 40px;
-  font: bold 15px/40px Microsoft YaHei;
+  height: 50px;
+  font: 14px/50px Microsoft YaHei;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -3045,6 +3053,7 @@ h6 {
   position: relative;
   z-index: 100;
   padding-bottom: 0px;
+  border-bottom: none;
 }
 .navigation:hover a.main {
   color: rgba(255,255,255,0.6);
@@ -3052,7 +3061,7 @@ h6 {
   padding-bottom: 0px;
 }
 .navigation li {
-  width: 200px;
+  width: 80px;
   height: 40px;
   background: #f7f7f7;
   font: normal 14px/40px Microsoft YaHei !important;
