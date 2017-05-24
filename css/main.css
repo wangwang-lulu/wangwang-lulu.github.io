@@ -1750,7 +1750,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5949ff;
+  background: #95ff4e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3013,13 +3013,23 @@ h6 {
 .navigation {
   list-style: none;
   padding: 0;
-  width: 80px;
+  width: 70px;
   height: 40px;
   margin: 0px 3px auto;
   background: #e9ddc6;
   position: relative;
-  z-index: 100;
+  z-index: 1030;
   float: right;
+}
+@media (min-width: 992px) {
+  .navigation {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigation {
+    display: none;
+  }
 }
 .navigation,
 .navigation a.main {
@@ -3053,7 +3063,7 @@ h6 {
   padding-bottom: 0px;
 }
 .navigation li {
-  width: 80px;
+  width: 70px;
   height: 40px;
   background: #f7f7f7;
   font: normal 14px/40px Microsoft YaHei !important;
@@ -3073,6 +3083,7 @@ h6 {
   box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
   -webkit-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
   -moz-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  background-position-x: 100%;
 }
 .navigation li a {
   border-bottom: none;
