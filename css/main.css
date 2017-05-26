@@ -1737,10 +1737,13 @@ pre .javascript .function {
 .links-of-author a {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
   margin-bottom: 10px;
   border-bottom-color: #555;
   font-size: 13px;
+  background-color: #3a5c6b;
+  border-radius: 4px;
+  padding: 0px 8px;
+  color: #fff;
 }
 .links-of-author a:before {
   display: inline-block;
@@ -1750,7 +1753,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a2ff30;
+  background: #ffbe32;
 }
 .links-of-blogroll {
   font-size: 13px;
