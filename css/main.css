@@ -1681,6 +1681,7 @@ pre .javascript .function {
   text-align: center;
   font-size: 14px;
   color: #999;
+  padding: 0px 10px;
 }
 .site-state {
   overflow: hidden;
@@ -1753,7 +1754,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #41c3ab;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1770,6 +1771,13 @@ pre .javascript .function {
 }
 .links-of-blogroll-item {
   padding: 2px 10px;
+  background-color: #50842e;
+  border-radius: 4px;
+  padding: 0px 8px;
+}
+.links-of-blogroll-item a {
+  color: #fff;
+  border-bottom-color: transparent;
 }
 .sidebar-nav {
   margin: 0 0 20px;
