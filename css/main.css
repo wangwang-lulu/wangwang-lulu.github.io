@@ -1754,7 +1754,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4f287e;
+  background: #5d03f1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3032,7 +3032,7 @@ h6 {
 #header {
   background: url("../images/b0.jpg");
   background-repeat: repeat;
-  box-shadow: 0 0 3px rgba(0,0,0,0.55);
+  box-shadow: 0 0 5px #000;
 }
 .navigation {
   position: fixed;
@@ -3046,6 +3046,7 @@ h6 {
   background: #e9c6c6;
   z-index: 1050;
   cursor: pointer;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .navigation {
