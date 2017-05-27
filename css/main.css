@@ -995,6 +995,11 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 }
+@media (max-width: 767px) {
+  .back-to-top {
+    right: 20px;
+  }
+}
 .back-to-top.back-to-top-on {
   bottom: 19px;
 }
@@ -1744,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #524e44;
+  background: #6bffdf;
 }
 .links-of-blogroll {
   font-size: 13px;
