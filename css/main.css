@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e3421a;
+  background: #3dffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2960,6 +2960,16 @@ h6 {
   padding: 0px;
   border: none;
 }
+@media (max-width: 767px) {
+  .img-1f.img-1f.img-1f {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .full-image.full-image.full-image {
+    display: none;
+  }
+}
 .img-h.img-h.img-h {
   max-height: 120px;
   display: inline-block;
@@ -3024,6 +3034,73 @@ h6 {
   border: none;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width: 767px) {
+  .posts-expand .post {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-expand .post-meta {
+    padding: 10px 20px;
+    margin: 0px;
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .post-body {
+    padding: 20px 20px 20px 20px;
+  }
+}
+.featureimg {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+@media (min-width: 992px) {
+  .featureimg {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featureimg {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .post-header {
+    margin-bottom: -40px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-expand .post-title {
+    background-color: rgba(0,0,0,0.6);
+    margin-top: -30px;
+    text-align: left;
+    padding: 0px 20px 3px 20px;
+    color: #ccc;
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-expand .post-title-link {
+    padding-top: 4px;
+    color: #ccc;
+    font-size: 18px;
+  }
+}
+.img-3bio.img-3bio.img-3bio {
+  width: 30%;
+  width: 33.3%;
+  display: inline-block;
+  margin-bottom: -6px;
+  margin-top: -6px;
+  background: #fff;
+  border: none;
+}
+@media (max-width: 767px) {
+  .img-3bio.img-3bio.img-3bio {
+    display: none;
+  }
 }
 #header {
   background: url("../images/b0.jpg");
