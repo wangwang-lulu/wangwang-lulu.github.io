@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #df5236;
+  background: #085ccb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3114,6 +3114,11 @@ h6 {
   .posts-expand .post-tags {
     padding: 0px 20px;
     margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-collapse .post {
+    margin: 0;
   }
 }
 #header {
