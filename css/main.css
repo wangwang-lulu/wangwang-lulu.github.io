@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8cc812;
+  background: #6f3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3124,6 +3124,8 @@ h6 {
 @media (min-width: 992px) {
   .new {
     column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
   }
 }
 @media (min-width: 992px) {
@@ -3131,7 +3133,6 @@ h6 {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid-column;
-    zoom: 80%;
   }
 }
 .newbutton {
@@ -3151,7 +3152,7 @@ h6 {
   color: #fff;
   border-bottom: none;
   border-radius: 3px;
-  font-size: 5px;
+  font-size: 12px;
   line-height: 52px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
