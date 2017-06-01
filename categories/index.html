@@ -106,7 +106,7 @@
 <meta property="og:title" content="文章目录">
 <meta property="og:url" content="http://wangwanglulu.com/categories/index.html">
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
-<meta property="og:updated_time" content="2017-06-01T04:54:32.418Z">
+<meta property="og:updated_time" content="2017-06-01T06:26:56.978Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="文章目录">
 
@@ -143,11 +143,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("#button").click(function(){
+    $("#button1").click(function(){
         $("div.content").toggleClass("new");
         $("article").toggleClass("grid");
         $("div.main-inner").toggleClass("ginner");
         $("p").toggleClass("gp");
+        $("h1").toggleClass("gh1");
+        $("div.post-meta").toggleClass("gmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button2").click(function(){
+        $("img").toggleClass("img-flist");
+        $("h1").toggleClass("lh1");
+        $("article").toggleClass("list");
+        $("div.post-meta").toggleClass("lmeta");
     });
 });
 </script>
@@ -468,7 +481,8 @@ $(document).ready(function(){
 
     </div>
   </aside>
-<a href="#" id="button" class="newbutton">GRID</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="#" id="button2" class="newbutton2">CLEAN</a>
 
   <div class="content-wrap">
   <ul class="navigation">
