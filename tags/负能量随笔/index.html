@@ -142,7 +142,16 @@
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("div.content").toggleClass("new");
+        $("article").toggleClass("grid");
+        $("div.main-inner").toggleClass("ginner");
+    });
+});
+</script>
 
   <title>标签: 负能量随笔 | Lu's Reality Marble</title>
 </head>
@@ -479,6 +488,8 @@
 
     </div>
   </aside>
+<a href="#" id="button" class="newbutton">GRID</a>
+
   <div class="content-wrap">
   <ul class="navigation">
             <a class="main" >GO!</a>

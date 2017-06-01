@@ -114,7 +114,7 @@
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
-<meta property="og:updated_time" content="2017-05-31T21:30:48.723Z">
+<meta property="og:updated_time" content="2017-06-01T03:59:00.908Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo：图片展示">
 <meta name="twitter:description" content="Hexo所提供的图片展示方法始终是有限的，但是要做一个简单而优雅的网站，太多的图片展示方式，反而会显得凌乱不堪。这里记录一下图片展示的各种方法，可以为日后的图文博客做模板。">
@@ -150,7 +150,16 @@
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#button").click(function(){
+        $("div.content").toggleClass("new");
+        $("article").toggleClass("grid");
+        $("div.main-inner").toggleClass("ginner");
+    });
+});
+</script>
 
   <title>Hexo：图片展示 | Lu's Reality Marble</title>
 </head>
@@ -781,6 +790,8 @@ border: none;
 
     </div>
   </aside>
+<a href="#" id="button" class="newbutton">GRID</a>
+
   <div class="content-wrap">
   <ul class="navigation">
             <a class="main" >GO!</a>
