@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c85777;
+  background: #5ee5ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3214,7 +3214,8 @@ h6 {
 }
 @media (max-width: 767px) {
   .newbutton2 {
-    display: none;
+    right: 50px;
+    bottom: 18px;
   }
 }
 @media (min-width: 992px) {
@@ -3233,6 +3234,11 @@ h6 {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .img-flist {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
   .img-flist {
     display: none !important;
   }
