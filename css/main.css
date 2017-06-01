@@ -1498,12 +1498,36 @@ pre .javascript .function {
 }
 .posts-expand .post-tags {
   margin-top: 40px;
-  text-align: center;
+  text-align: right;
 }
 .posts-expand .post-tags a {
   display: inline-block;
   margin-right: 10px;
   font-size: 13px;
+}
+.posts-expand .post-tags-readmore {
+  margin-top: 0px;
+  float: right;
+}
+@media (max-width: 767px) {
+  .posts-expand .post-tags-readmore {
+    display: none;
+  }
+}
+.posts-expand .post-tags-readmore a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 13px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  border-bottom: none;
 }
 .post-nav {
   display: table;
@@ -1751,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1245b3;
+  background: #2996ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2767,7 +2791,7 @@ hr {
   margin: 0;
 }
 .posts-expand .post-tags {
-  text-align: left;
+  text-align: right;
 }
 .posts-expand .post-tags a {
   height: 32px;
