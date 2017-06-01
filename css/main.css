@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cba20f;
+  background: #8cc812;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3131,7 +3131,7 @@ h6 {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid-column;
-    zoom: 90%;
+    zoom: 80%;
   }
 }
 .newbutton {
