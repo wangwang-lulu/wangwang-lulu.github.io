@@ -1751,7 +1751,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49f033;
+  background: #1245b3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3221,6 +3221,9 @@ h6 {
   .newbutton2 {
     display: none;
   }
+}
+.newbutton2:hover {
+  color: rgba(34,34,34,0.3);
 }
 @media (min-width: 992px) {
   .img-flist {
