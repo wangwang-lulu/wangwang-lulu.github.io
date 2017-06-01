@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6f3;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3168,6 +3168,11 @@ h6 {
 @media (min-width: 992px) {
   .ginner {
     width: 900px;
+  }
+}
+@media (min-width: 992px) {
+  .gp {
+    font-size: 14px;
   }
 }
 #header {
