@@ -86,7 +86,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="杂谈,正能量随笔," />
+  <meta name="keywords" content="正能量随笔,杂谈," />
 
 
 
@@ -103,14 +103,14 @@
 
 
 <meta name="description" content="本文写于2013年11月11日  这一次与前几次有点与众不同，所以写一下。">
-<meta name="keywords" content="杂谈,正能量随笔">
+<meta name="keywords" content="正能量随笔,杂谈">
 <meta property="og:type" content="article">
 <meta property="og:title" content="旧文二：传教">
 <meta property="og:url" content="http://wangwanglulu.com/2017/04/26/preach/index.html">
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
 <meta property="og:description" content="本文写于2013年11月11日  这一次与前几次有点与众不同，所以写一下。">
 <meta property="og:image" content="http://wangwanglulu.com/images/b3.jpg">
-<meta property="og:updated_time" content="2017-06-01T22:15:33.600Z">
+<meta property="og:updated_time" content="2017-06-02T05:07:19.348Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="旧文二：传教">
 <meta name="twitter:description" content="本文写于2013年11月11日  这一次与前几次有点与众不同，所以写一下。">
@@ -166,6 +166,14 @@ $(document).ready(function(){
         $("img").toggleClass("img-flist");
         $("article").toggleClass("list");
         $("div.post-meta").toggleClass("lmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
     });
 });
 </script>
@@ -505,9 +513,9 @@ $(document).ready(function(){
       
         <div class="post-tags">
           
-            <a href="/tags/杂谈/" rel="tag"><i class="fa fa-tag"></i> 杂谈</a>
-          
             <a href="/tags/正能量随笔/" rel="tag"><i class="fa fa-tag"></i> 正能量随笔</a>
+          
+            <a href="/tags/杂谈/" rel="tag"><i class="fa fa-tag"></i> 杂谈</a>
           
         </div>
       
@@ -674,7 +682,7 @@ $(document).ready(function(){
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -690,8 +698,15 @@ $(document).ready(function(){
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -1126,6 +1141,9 @@ $(document).ready(function(){
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>

@@ -166,6 +166,14 @@ $(document).ready(function(){
 });
 </script>
 
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
+    });
+});
+</script>
+
   <title>标签: 欧美游记 | Lu's Reality Marble</title>
 </head>
 
@@ -485,7 +493,7 @@ $(document).ready(function(){
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -501,8 +509,15 @@ $(document).ready(function(){
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -931,6 +946,9 @@ $(document).ready(function(){
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>

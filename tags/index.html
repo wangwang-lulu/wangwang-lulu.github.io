@@ -106,7 +106,7 @@
 <meta property="og:title" content="文章标签">
 <meta property="og:url" content="http://wangwanglulu.com/tags/index.html">
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
-<meta property="og:updated_time" content="2017-06-01T22:15:34.881Z">
+<meta property="og:updated_time" content="2017-06-02T05:07:20.020Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="文章标签">
 
@@ -160,6 +160,14 @@ $(document).ready(function(){
         $("img").toggleClass("img-flist");
         $("article").toggleClass("list");
         $("div.post-meta").toggleClass("lmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
     });
 });
 </script>
@@ -464,7 +472,7 @@ $(document).ready(function(){
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -480,8 +488,15 @@ $(document).ready(function(){
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -910,6 +925,9 @@ $(document).ready(function(){
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>

@@ -106,9 +106,11 @@
 <meta property="og:title" content="留言板">
 <meta property="og:url" content="http://wangwanglulu.com/message/index.html">
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
-<meta property="og:updated_time" content="2017-06-01T22:15:34.740Z">
+<meta property="og:image" content="http://wangwanglulu.com/images/b80.jpg">
+<meta property="og:updated_time" content="2017-06-02T05:07:19.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="留言板">
+<meta name="twitter:image" content="http://wangwanglulu.com/images/b80.jpg">
 
 
 
@@ -160,6 +162,14 @@ $(document).ready(function(){
         $("img").toggleClass("img-flist");
         $("article").toggleClass("list");
         $("div.post-meta").toggleClass("lmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
     });
 });
 </script>
@@ -338,7 +348,17 @@ $(document).ready(function(){
 
     
     
-      <script src="/assets/js/APlayer.min.js"> </script>
+      <script src="/assets/js/APlayer.min.js"> </script><div style=" padding: 0px 20px 20px 20px;
+    background: white;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;"><br><img src="/images/b80.jpg" class="img-1"></div>
     
   </div>
 
@@ -463,7 +483,7 @@ $(document).ready(function(){
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -479,8 +499,15 @@ $(document).ready(function(){
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -911,6 +938,9 @@ $(document).ready(function(){
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>

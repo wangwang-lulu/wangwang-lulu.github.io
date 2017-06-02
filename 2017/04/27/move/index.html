@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
 <meta property="og:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
 <meta property="og:image" content="http://wangwanglulu.com/images/wb1.jpg">
-<meta property="og:updated_time" content="2017-06-01T22:15:33.584Z">
+<meta property="og:updated_time" content="2017-06-02T05:07:19.348Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo：网站搬家">
 <meta name="twitter:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
@@ -166,6 +166,14 @@ $(document).ready(function(){
         $("img").toggleClass("img-flist");
         $("article").toggleClass("list");
         $("div.post-meta").toggleClass("lmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
     });
 });
 </script>
@@ -690,7 +698,7 @@ npm install hexo-tag-cloud --save
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -722,8 +730,15 @@ npm install hexo-tag-cloud --save
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -1158,6 +1173,9 @@ npm install hexo-tag-cloud --save
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>

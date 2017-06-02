@@ -114,7 +114,7 @@
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
 <meta property="og:image" content="http://wangwanglulu.com/images/wb4.jpg">
-<meta property="og:updated_time" content="2017-06-01T22:15:33.584Z">
+<meta property="og:updated_time" content="2017-06-02T05:07:19.348Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo：图片展示">
 <meta name="twitter:description" content="Hexo所提供的图片展示方法始终是有限的，但是要做一个简单而优雅的网站，太多的图片展示方式，反而会显得凌乱不堪。这里记录一下图片展示的各种方法，可以为日后的图文博客做模板。">
@@ -170,6 +170,14 @@ $(document).ready(function(){
         $("img").toggleClass("img-flist");
         $("article").toggleClass("list");
         $("div.post-meta").toggleClass("lmeta");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("div.widget").toggleClass("nowidget");
     });
 });
 </script>
@@ -771,7 +779,7 @@ border: none;
                 </li>
               
             </ul>
-             
+
           </div>
          
         
@@ -803,8 +811,15 @@ border: none;
 
     </div>
   </aside>
-<a href="#" id="button1" class="newbutton1">GRID</a>
+<a href="/message/" id="button4" class="newbutton4">MESG</a>          
+<a href="#" id="button3" class="newbutton3">DATE</a>
 <a href="#" id="button2" class="newbutton2">CLEAN</a>
+<a href="#" id="button1" class="newbutton1">GRID</a>
+
+          <div class="widget">
+          <h4 class="caltitle">Cloud Calendar</h4>
+          <div id="calendar"></div>
+          </div> 
 
   <div class="content-wrap">
   <ul class="navigation">
@@ -1239,6 +1254,9 @@ border: none;
 
   
 
+  <script  src="/js/src/calendar.js"></script>
+  <script  src="/js/src/languages.js"></script>
   <script type="text/javascript" src="/js/src/tryit.js"></script>
+
 </body>
 </html>
