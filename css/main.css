@@ -1775,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0df4;
+  background: #ffeb71;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3218,12 +3218,12 @@ h6 {
 }
 .newbutton2 {
   position: fixed;
-  right: 157px;
-  bottom: 17px;
+  right: 212px;
+  bottom: 16px;
   list-style: none;
   padding: 0;
   width: 50px;
-  height: 24px;
+  height: 53px;
   margin: 0px 3px auto;
   background: #d8b220;
   z-index: 1050;
@@ -3234,7 +3234,7 @@ h6 {
   border-bottom: none;
   border-radius: 3px;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 53px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .newbutton2 {
@@ -3322,14 +3322,14 @@ h6 {
 }
 .newbutton4 {
   position: fixed;
-  right: 212px;
-  bottom: 16px;
+  right: 157px;
+  bottom: 17px;
   list-style: none;
   padding: 0;
   width: 50px;
-  height: 53px;
+  height: 24px;
   margin: 0px 3px auto;
-  background: #2f74f7;
+  background: #6ac790;
   z-index: 1050;
   cursor: pointer;
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
@@ -3338,7 +3338,7 @@ h6 {
   border-bottom: none;
   border-radius: 3px;
   font-size: 12px;
-  line-height: 53px;
+  line-height: 24px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .newbutton4 {
