@@ -1775,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #936aff;
+  background: #6599ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3315,11 +3315,6 @@ h6 {
 .newbutton3:hover {
   color: rgba(34,34,34,0.3);
 }
-@media (min-width: 992px) {
-  .nowidget {
-    display: initial !important;
-  }
-}
 .newbutton4 {
   position: fixed;
   right: 157px;
@@ -3353,20 +3348,22 @@ h6 {
 .newbutton4:hover {
   color: rgba(34,34,34,0.3);
 }
-.widget {
-  background: #fff;
-  -webkit-box-shadow: -1px 1px 5px #ccc;
-  box-shadow: -1px 1px 5px #ccc;
-  border: 1px solid #ddd;
-  margin-bottom: 30px;
-  word-wrap: break-word;
-  width: 300px;
-  position: fixed;
-  top: 130px;
-  right: 10px;
-  border-radius: 5px;
-  padding-bottom: 20px;
-  display: none;
+@media (min-width: 992px) {
+  .widget {
+    background: #fff;
+    -webkit-box-shadow: -1px 1px 5px #ccc;
+    box-shadow: -1px 1px 5px #ccc;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+    width: 300px;
+    position: fixed;
+    top: 130px;
+    right: 10px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .widget {
