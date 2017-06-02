@@ -1529,6 +1529,9 @@ pre .javascript .function {
   margin-bottom: 5px;
   border-bottom: none;
 }
+.posts-expand .post-tags-readmore a:hover {
+  background: #ccc;
+}
 .post-nav {
   display: table;
   margin-top: 15px;
@@ -1775,7 +1778,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6599ff;
+  background: #74ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3225,7 +3228,7 @@ h6 {
   width: 50px;
   height: 53px;
   margin: 0px 3px auto;
-  background: #d8b220;
+  background: #f9cc21;
   z-index: 1050;
   cursor: pointer;
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
@@ -3361,7 +3364,6 @@ h6 {
     top: 130px;
     right: 10px;
     border-radius: 5px;
-    padding-bottom: 20px;
     display: none;
   }
 }
@@ -3377,6 +3379,12 @@ h6 {
 }
 .caltitle {
   text-align: center;
+  background-color: #c76a6a;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
 }
 #calendar a {
   text-decoration: none;
@@ -3488,6 +3496,26 @@ h6 {
   background-color: #ea6753;
   color: #fff;
   cursor: pointer;
+}
+.xx {
+  height: 162px;
+  background-color: #39b49f;
+  border-radius: 0px 0px 5px 5px;
+}
+.xxx {
+  float: right;
+  height: 162px;
+}
+.yyy {
+  float: left;
+  width: 50%;
+  padding: 20px 0px 20px 20px;
+  height: 120px;
+}
+.preview {
+  margin: 0px;
+  font-weight: bold;
+  color: #fff;
 }
 #header {
   background: url("../images/b0.jpg");
