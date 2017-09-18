@@ -1778,7 +1778,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4dff7c;
+  background: #b920b3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3151,6 +3151,7 @@ h6 {
   }
 }
 .newbutton1 {
+  display: none;
   position: fixed;
   right: 212px;
   bottom: 45px;
@@ -3220,6 +3221,7 @@ h6 {
   }
 }
 .newbutton2 {
+  display: none;
   position: fixed;
   right: 212px;
   bottom: 16px;
@@ -3286,6 +3288,7 @@ h6 {
   }
 }
 .newbutton3 {
+  display: none;
   position: fixed;
   right: 157px;
   bottom: 45px;
@@ -3319,6 +3322,7 @@ h6 {
   color: rgba(34,34,34,0.3);
 }
 .newbutton4 {
+  display: none;
   position: fixed;
   right: 157px;
   bottom: 17px;
