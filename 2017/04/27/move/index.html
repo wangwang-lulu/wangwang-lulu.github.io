@@ -73,7 +73,7 @@
 <meta property="og:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://dearlu.wang/images/wb1.jpg">
-<meta property="og:updated_time" content="2018-03-17T15:02:28.643Z">
+<meta property="og:updated_time" content="2018-05-20T07:02:59.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo：网站搬家">
 <meta name="twitter:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
@@ -361,18 +361,6 @@
 
           
             
-            <!--noindex-->
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/04/27/move/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="2017/04/27/move/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-              <!--/noindex-->
-            
           
 
           
@@ -510,7 +498,7 @@ npm install hexo-tag-cloud --save
           
   <div class="comments" id="comments">
     
-      <div id="hypercomments_widget"></div>
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjYzMi8xMzE2Nw=="></div>
     
   </div>
 
@@ -808,33 +796,34 @@ npm install hexo-tag-cloud --save
 
 	
 
-		<script type="text/javascript">
-		_hcwp = window._hcwp || [];
 
-		_hcwp.push({widget:"Bloggerstream", widget_id: 90089, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
-		
-		_hcwp.push({widget:"Stream", widget_id: 90089, xid: "2017/04/27/move/"});
-		
 
-		(function() {
-		if("HC_LOAD_INIT" in window)return;
-		HC_LOAD_INIT = true;
-		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/90089/"+lang+"/widget.js";
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(hcc, s.nextSibling);
-		})();
-		</script>
 
-	
+  
 
 
 
 
 
+  
 
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
 
 
 
