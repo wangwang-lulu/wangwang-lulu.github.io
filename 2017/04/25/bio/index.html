@@ -75,7 +75,7 @@
 <meta property="og:image" content="http://dearlu.wang/images/b4.jpg">
 <meta property="og:image" content="http://dearlu.wang/images/b2.jpg">
 <meta property="og:image" content="http://dearlu.wang/images/b6.jpg">
-<meta property="og:updated_time" content="2019-03-20T05:11:26.099Z">
+<meta property="og:updated_time" content="2019-03-20T06:51:48.218Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于">
 <meta name="twitter:description" content="2017年9月5日更新。  博主是我。除了这个网站，还有用于工作的平台 (Lu’s Notebook)。曾经尝试过各种建站方式，但是我个人最喜欢的，就是您现在看到的这个网站。">
@@ -399,12 +399,12 @@
 <p>博主是我。除了这个网站，还有用于工作的平台 (<a href="http://wangwanglulu.com" target="_blank" rel="noopener">Lu’s Notebook</a>)。曾经尝试过各种建站方式，但是我个人最喜欢的，就是您现在看到的这个网站。   </p>
 <a id="more"></a>
 
-        <div id="aplayer-rkYuCdSm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-wblgRQhw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-rkYuCdSm"),
+            element: document.getElementById("aplayer-wblgRQhw"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -826,6 +826,33 @@
   
 
 
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'c9RNKsD00tfxokI0L0LKW5uQ-gzGzoHsz',
+    appKey: '6TqB0Quo8JBjhkbVf67fNF9a',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
 
 

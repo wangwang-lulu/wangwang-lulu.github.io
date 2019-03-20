@@ -70,7 +70,7 @@
 <meta property="og:site_name" content="Lu&#39;s Reality Marble">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://dearlu.wang/images/b80.jpg">
-<meta property="og:updated_time" content="2019-03-20T05:11:26.490Z">
+<meta property="og:updated_time" content="2019-03-20T06:51:48.515Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="留言板">
 <meta name="twitter:image" content="http://dearlu.wang/images/b80.jpg">
@@ -302,7 +302,7 @@
           
   <div class="comments" id="comments">
     
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjYzMi8xMzE2Nw=="></div>
+      <div id="vcomments"></div>
     
   </div>
 
@@ -585,19 +585,35 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'c9RNKsD00tfxokI0L0LKW5uQ-gzGzoHsz',
+    appKey: '6TqB0Quo8JBjhkbVf67fNF9a',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
 
 

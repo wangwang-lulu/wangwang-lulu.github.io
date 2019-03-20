@@ -951,7 +951,7 @@ pre .javascript .function {
 .comments {
   margin: -20px 0px 0;
   background-color: #fff;
-  padding-top: 40px;
+  padding: 20px;
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.15);
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
@@ -1778,7 +1778,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1532f;
+  background: #b35746;
 }
 .links-of-blogroll {
   font-size: 13px;

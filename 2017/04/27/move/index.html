@@ -73,7 +73,7 @@
 <meta property="og:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://dearlu.wang/images/wb1.jpg">
-<meta property="og:updated_time" content="2019-03-20T05:11:26.115Z">
+<meta property="og:updated_time" content="2019-03-20T06:51:48.218Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo：网站搬家">
 <meta name="twitter:description" content="这个next主题被我改得太多了，中间的修改参考了很多别人的文章。这里记录一下我在参考了众多文献后的搬家过程，具体怎么弄也可以到知乎去搜索。">
@@ -496,7 +496,7 @@ npm install hexo-tag-cloud --save
           
   <div class="comments" id="comments">
     
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjYzMi8xMzE2Nw=="></div>
+      <div id="vcomments"></div>
     
   </div>
 
@@ -808,19 +808,35 @@ npm install hexo-tag-cloud --save
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'c9RNKsD00tfxokI0L0LKW5uQ-gzGzoHsz',
+    appKey: '6TqB0Quo8JBjhkbVf67fNF9a',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
 
 
